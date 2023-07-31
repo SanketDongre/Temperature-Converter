@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+  }
+  body{
+    width:100vw;
+    height: 100vh;
+    display:grid;
+    place-items:center;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  #convert {
+    background-color: yellow;
+  }
+  #convert:hover {
+    background-color: #f4a55a;
+  }
+  h1 {
+    font-family: sans-serif;
+    color: hotpink;
+    font-size: 80px;
+  }
+  input {
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #5af47e;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
+  
